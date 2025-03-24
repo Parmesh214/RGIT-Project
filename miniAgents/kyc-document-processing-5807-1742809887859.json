@@ -1,0 +1,29 @@
+{
+  "_id": "0ce79554-0cb8-452d-8bae-3598b94d38dd",
+  "aiPersonaId": "61f57175-4738-47c2-8432-6c2a092cbbe2",
+  "integrationId": "kyc-document-processing-5807-1742809887859",
+  "intentClassification": {
+    "modelId": "4cf651d9-edf3-455f-a22e-53cc67fcc07b"
+  },
+  "intents": [
+    {
+      "_id": "data-extraction-5807",
+      "name": "Data Extraction",
+      "description": "Extracts relevant information from KYC documents such as names, addresses, and identification numbers.",
+      "examples": [
+        "Extract the name and address from this ID.",
+        "What is the identification number on this document?",
+        "Get the date of birth from this passport.",
+        "Generate a summary for this KYC document",
+        "Generate a summary for this document"
+      ],
+      "flowType": "Workflow",
+      "workflowId": "a28f5499-4d15-4401-a3be-60c17badc4f5"
+    }
+  ],
+  "name": "KYC Document Processing",
+  "primaryWorkflowId": "5314cdbc-e2a5-4563-88c5-e1474e0bb6da",
+  "publisherAccountId": "790b9ee3-e6ec-4374-98dc-8c29382134be",
+  "scope": "Handles all tasks related to summarizing and processing documents, including document verification, data extraction, and compliance checks.",
+  "status": "Active"
+}

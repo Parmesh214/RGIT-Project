@@ -1,0 +1,57 @@
+{
+  "aiPersonaIntegrationId": "document-summarizer-1742809886276",
+  "version": "1.0.0",
+  "description": "AI Agent document-summarizer-1742809886276 package version 1.0.0",
+  "data": {
+    "workflows": [
+      [
+        "workflows",
+        "data-extraction-6192-1742809887859.json"
+      ],
+      [
+        "workflows",
+        "ma-kyc-document-processing-5807-primary-workflow-for-kyc-document-processing-1742809887859.json"
+      ],
+      [
+        "workflows",
+        "document-verification-6192-1742809887859.json"
+      ],
+      [
+        "workflows",
+        "compliance-check-6192-1742809887859.json"
+      ]
+    ],
+    "models": [
+      [
+        "models",
+        "gpt-4o-mini.json"
+      ],
+      [
+        "models",
+        "azure-gpt-4o-mini.json"
+      ]
+    ],
+    "snippets": [
+      [
+        "snippets",
+        "Upload doc helper-1742809887859.json"
+      ],
+      [
+        "snippets",
+        "Get PDF Images-1742809887859.json"
+      ]
+    ],
+    "miniAgents": [
+      [
+        "miniAgents",
+        "kyc-document-processing-5807-1742809887859.json"
+      ]
+    ],
+    "aiPersonas": [
+      [
+        "aiPersonas",
+        "document-summarizer-1742809886276.json"
+      ]
+    ]
+  }
+}

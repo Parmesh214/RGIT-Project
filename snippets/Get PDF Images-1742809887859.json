@@ -1,0 +1,7 @@
+{
+  "_id": "0dd39745-55e5-47e3-a55e-4d4a3cfa2265",
+  "aiPersonaId": "61f57175-4738-47c2-8432-6c2a092cbbe2",
+  "code": "const main = () => {\n    // Only consider first 6 pages\n    const images = input.imagesResult.flatMap(i => i.images).slice(0, 6);\n    const documentIds = images.map(i => i.documentId)\n    return { documentIds, docIdString: documentIds.join(',') };\n};\n\nmain()\n\n\n",
+  "name": "Get PDF Images-1742809887859",
+  "status": "Active"
+}
